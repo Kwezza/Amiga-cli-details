@@ -12,5 +12,5 @@ Accurately determining the console window size is essential for applications tha
 
 ## Prerequisites
 
-- **Amiga Workbench 2.04**: This program has been tested to work with Amiga Workbench 2.04+
+- **Amiga Workbench 2.04+**: This program has been tested to work with Amiga Workbench 2.04+
 - **SAS/C Compiler 6.58**: Ensure you have the SAS/C compiler installed to compile the program.
