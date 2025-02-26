@@ -1,6 +1,6 @@
 # Amiga Console Window Size Detection
 
-This project provides a C program that detects the size of the console window (in rows and columns) on AmigaOS systems, specifically targeting Workbench 2+. The program utilizes ANSI escape sequences to query the console device for its dimensions and includes a fallback to default values if the query is unsuccessful.
+This project provides a C program that demonstrates how to detect the size of the console window (in rows and columns) on AmigaOS systems, specifically targeting Workbench 2+. The program utilizes ANSI escape sequences to query the console device for its dimensions and includes a fallback to default values if the query is unsuccessful.
 
 ## Description
 
