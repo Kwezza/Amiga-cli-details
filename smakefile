@@ -1,0 +1,21 @@
+# Makefile for SAS/C on Amiga
+SC = sc
+LINK = slink
+
+# Compilation flags
+CFLAGS = noicon StackExtend 
+
+# Linker flags
+LFLAGS = 
+
+# Default target
+all: main
+
+main: main.o
+    $(SC) link to CliSettings $(CFLAGS) main.o cli_utilities.o 
+
+main.o: main.c
+    $(SC) $(CFLAGS) main.c cli_utilities.c  
+
+clean:
+    delete main.o main.lnk cli_utilities.o cli_utilities.lnk CliSettings CliSettings.lnk
